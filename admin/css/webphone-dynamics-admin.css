@@ -1,0 +1,144 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.separator {
+	height: 20px;
+}
+
+.horizontal-separator {
+	display: inline-block;
+	width: 10px;
+}
+
+.default-cursor {
+	cursor: default;
+}
+
+.text-cursor {
+	cursor: text;
+}
+
+.pointer-cursor {
+	cursor: pointer;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.vvv_combobox {
+	width: 100%;
+}
+.vvv_textbox {
+	height: 150px;
+	width: 100%;
+}
+
+.form-table input[type="text"], .vvv_textfield {
+	width:100%;
+	margin-bottom: 5px;
+}
+
+#header_on_off_field_warning {
+	margin-left: 30px;
+}
+.warning { /* called by jQuery in admin-ui-controller.js */
+	color: #f00;
+	font-weight: bold;
+}
+
+.width-60 { width: 60%; }
+.width-100 { width: 100%; }
+
+.hr-top { border-top: 1px solid #ccc; }
+.hr-bottom { border-bottom: 1px solid #ccc; }
+
+.notify_msg{ position:fixed; width:300px; padding:15px; color:#fff; right:60px; top:0px; opacity:0; box-shadow:0px 2px 2px #ccc; border-radius:5px;}
+
+.wphdynamics_json_container {
+	/*min-height: 100px;*/
+	padding: 20px;
+}
+
+.wphdynamics_json_container.wphdynamics_default_example_json_params {
+	background: #f1f1f1;
+	border: 2px solid #1c2833;
+	color: #1c2833;
+}
+
+.wphdynamics_json_container.wphdynamics_default_example_json_params .json-property {
+	color: #19a0a7;
+}
+
+.btn-custom {
+	padding-left: 7px;
+}
+.icon-button-admin:before {
+	font-size: 16px;
+	vertical-align: middle;
+}
+.icon-button-admin.icon-before {
+	/*padding-right: 5px;*/
+}
+.icon-button-admin.icon-after {
+	padding-left: 5px;
+}
+.icon-button-custom.icon-before {
+	padding-right: 5px;
+}
+.icon-button-custom:before {
+	font-size: 18px;
+}
+
+.wphdynamics_json_default_fields_description ul.fields_description_list {
+	padding: 15px;
+	padding-inline-start: 40px;
+	background: #ccc;
+	list-style: inherit;
+}
+.wphdynamics_json_default_fields_description .fields_description_list ul {
+	padding-inline-start: 20px;
+	padding-top: 5px;
+	list-style: circle;
+}
+
+.wphdynamics_json_default_fields_description ul.fields_description_list li.list_separator {
+	list-style: none;
+	height: 5px;
+}
+
+.wphdynamics-toolbar {
+	display: inline-block;
+	width: 100%;
+}
+
+.img_icon_header {
+	vertical-align: sub;
+	margin-right: 7px;
+}
+
+
+@media (max-width: 767px) {
+  .wphdynamics-toolbar .float-left,
+  .wphdynamics-toolbar .float-right,
+  .wphdynamics-toolbar .spinner {
+    float: inherit;
+  }
+
+  .wphdynamics-toolbar .button-primary {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 535px) {
+	.notify_msg {
+		left: 10px;
+	}
+
+}

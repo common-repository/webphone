@@ -1,0 +1,267 @@
+# Copyright (C) 2020 Webphone | Ipglobal
+# This file is distributed under the same license as the Webphone plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Webphone 2.0.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/trunk\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-12-22T16:53:31+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: webphone-dynamics-plugin\n"
+
+#. Plugin Name of the plugin
+#: admin/views/admin_webphone_dynamics_settings_page.php:48
+#: admin/class-webphone-dynamics-admin.php:187
+#: admin/class-webphone-dynamics-admin.php:201
+#: admin/class-webphone-dynamics-admin.php:202
+msgid "Webphone Dynamics"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/webphone/"
+msgstr "https://es.wordpress.org/plugins/webphone/"
+
+#. Author URI of the plugin
+msgid "https://webphone.net/en"
+msgstr "https://webphone.net"
+
+#. Description of the plugin
+msgid "Set Webphone setting parameters"
+msgstr ""
+
+#. Author of the plugin
+msgid "Webphone | Ipglobal"
+msgstr ""
+
+#: admin/class-webphone-dynamics-admin.php:202
+#: admin/class-webphone-dynamics-admin.php:203
+msgid "Webphone Settings"
+msgstr ""
+
+#: admin/class-webphone-dynamics-admin.php:246
+#: admin/class-webphone-dynamics-admin.php:295
+msgid "You do not have sufficient permission to perform this operation"
+msgstr "No tienes los suficientes permisos para realizar esta operación"
+
+#: admin/class-webphone-dynamics-admin.php:272
+msgid "Settings Updated"
+msgstr "Cambios guardados"
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:13
+msgid "Settings saved successfully."
+msgstr "Cambios guardados correctamente."
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:14
+msgid "Error saving settings."
+msgstr "Se ha producido un error guardando los cambios."
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:15
+msgid "Wrong JSON format, please review it."
+msgstr "JSON mal formado, por favor revísalo."
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:16
+msgid "Webphone configuration parameters will be reset to the default empty value. You can undo this action clicking on <em>Undo reset to Default</em>.<br>For changes to take effect, remember click in <strong>Save changes</strong> when you finish the edition."
+msgstr "Parámetros de configuración de Webphone serán restablecidos a valores vacíos o por defecto. Puedes deshacer esta acción haciendo click en <em>Deshacer restablecer parámetros</em>.<br>Para que los cambios tengan efecto, recuerda hacer click en <strong>Guardar cambios</strong> cuando finalices la edición."
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:50
+msgid "Welcome to Webphone Dynamics!"
+msgstr "Bienvenido a Webphone Dynamics!"
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:51
+msgid "This plugin is a complement for Webphone customers that will make it easier to use the tool on your Wordpress website."
+msgstr "Este plugin es un complemento para los clientes de Webphone con el que se facilitará la integración y uso de la herramienta en tu sitio Web Wordpress."
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:52
+msgid "If you are not a customer yet, you can <a href=\"https://dashboard.webphone.net/create-account/\" target=\"_blank\">create a new account</a>, know about <a href=\"https://www.webphone.net/en/#solutions\" target=\"_blank\">our solutions</a> or if you prefer, <a href=\"https://www.webphone.net/en/contact/\" target=\"_blank\">request a demo</a> to test the product."
+msgstr "Si todavía no eres un cliente, puedes <a href=\"https://dashboard.webphone.net/create-account/\" target=\"_blank\">crear una cuenta</a>, conocer <a href=\"https://www.webphone.net/#soluciones\" target=\"_blank\">nuestras soluciones</a> ó si lo prefieres, <a href=\"https://www.webphone.net/contacto/\" target=\"_blank\">solicitar una Demo</a> para probar el producto."
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:53
+msgid "If you need help or want more information"
+msgstr "Si necesitas ayuda o quieres más información"
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:53
+msgid "we will contact you right now"
+msgstr "contactaremos contigo lo antes posible"
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:55
+msgid "Webphone config"
+msgstr ""
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:66
+msgid "Insert or update your <strong>Webphone</strong> config settings parameters in a well JSON format. For changes to take effect, remember click in <strong>Save changes</strong> when you finish the edition"
+msgstr "Inserta o actualiza tus parámetros de configuración de <strong>Webphone</strong> en un JSON bien formado. Para que los cambios tengan efecto, recuerda hacer click en <strong>Guardar cambios</strong> cuando finalices la edición"
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:77
+msgid "Reset parameters to default values"
+msgstr "Restablecer parámetros de configuración a valores por defecto"
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:77
+msgid "Reset parameters"
+msgstr "Restablecer parámetros"
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:79
+msgid "Undo reset setting parameters to default values"
+msgstr "Deshacer restablecer parámetros de configuración a valores por defecto"
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:79
+msgid "Undo reset parameters"
+msgstr "Deshacer restablecer parámetros"
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:84
+msgid "Warning!, this action can not be undone"
+msgstr "Aviso!, esta acción no puede deshacerse"
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:84
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:94
+msgid " <strong>Default </strong>Webphone setting parameters in a well JSON format"
+msgstr "Parámetros de configuración por <strong>Defecto </strong> de Webphone en formato JSON"
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:100
+msgid "<strong>Default</strong> fields notes:"
+msgstr "Notas de campos <strong>por defecto</strong>:"
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:102
+msgid "<strong>webphone_config</strong>:"
+msgstr ""
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:104
+msgid "<strong><em>load_script</em></strong> *required. (boolean value): true is required to work"
+msgstr "<strong><em>load_script</em></strong> *requerido. (valor booleano): true --> Webphone se cargará en tu sitio Web | false --> no se cargará Webphone"
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:105
+msgid "<strong><em>script_url</em></strong> *required"
+msgstr "<strong><em>script_url</em></strong> *requerido"
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:106
+msgid "<strong><em>script_load_location</em></strong>. Webphone script load location in your website, allow values: HEAD | BODY. Default: HEAD"
+msgstr "<strong><em>script_load_location</em></strong>. Ubicación de carga del script en tu website, valores permitidos: HEAD | BODY. Por defecto: HEAD"
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:107
+msgid "<strong><em>default_widget_id</em></strong>: id widget will be used if others ids are not defined"
+msgstr "<strong><em>default_widget_id</em></strong>: ID de Widget que será usado por defecto si otros IDs no son especificados"
+
+#: admin/views/admin_webphone_dynamics_settings_page.php:108
+msgid "<strong><em>privacy_check_format</em></strong> allow values: NO_CHECK | SIMPLE_CHECK | DOUBLE_CHECK. Default: SIMPLE_CHECK"
+msgstr "<strong><em>privacy_check_format</em></strong> valores permitidos: NO_CHECK | SIMPLE_CHECK | DOUBLE_CHECK. Por defecto: SIMPLE_CHECK"
+
+#: admin/class-webphone-dynamics-admin.php:155
+#: admin/class-webphone-dynamics-admin.php:154
+msgid "Need help? <br>Call free right now!"
+msgstr "¿Necesitas ayuda? <br>Te llamamos gratis ahora mismo!"
+
+#: admin/class-webphone-dynamics-admin.php:156
+#: admin/class-webphone-dynamics-admin.php:155
+msgid "Need help?"
+msgstr "¿Necesitas ayuda?"
+
+#: admin/class-webphone-dynamics-admin.php:157
+#: admin/class-webphone-dynamics-admin.php:156
+msgid "Call free right now!"
+msgstr "Te llamamos gratis ahora mismo!"
+
+#. Plugin Name of the plugin
+#: admin/class-webphone-dynamics-admin.php:188
+msgid "Webphone"
+msgstr ""
+
+#: admin/class-webphone-dynamics-admin.php:155
+#: admin/class-webphone-dynamics-admin.php:156
+#: admin/class-webphone-dynamics-admin.php:210
+#: admin/class-webphone-dynamics-admin.php:211
+msgid "Webphone Button"
+msgstr ""
+
+#: admin/views/admin_webphone_dynamics_button_page.php:51
+msgid "THE WEBPHONE PLUG-IN IS NOT INSTALLED"
+msgstr "WEBPHONE PLUG-IN NO ESTÁ INSTALADO"
+
+#: admin/views/admin_webphone_dynamics_button_page.php:53
+msgid "To activate the plug-in Webphone need an ID and indicates where you want to display your button. <br> Please perform the following steps."
+msgstr "Para activar Webphone plug-in necesitas un ID e indicar donde quieres que se muestre tu botón. <br> Por favor completa los siguientes pasos."
+
+#: admin/views/admin_webphone_dynamics_button_page.php:62
+msgid "THE WEBPHONE PLUG-IN HAS BEEN ACTIVATED SUCCESSFULLY"
+msgstr "WEBPHONE PLUG-IN FUE ACTIVADO SATISFACTORIAMENTE"
+
+#: admin/views/admin_webphone_dynamics_button_page.php:63
+msgid "Please make sure the widget ID is valid and start receiving calls right now. Welcome to <span class=\"wphcolor\">Webphone!</span>!"
+msgstr "Por favor, asegúrate que el ID de widget es válido y empieza a recibir llamadas ahora mismo. Bienvenido a <span class=\"wphcolor\">Webphone!</span>!"
+
+#: admin/views/admin_webphone_dynamics_button_page.php:69
+msgid "Activate your <span class=\"wphcolor\">Webphone</span> in 3 easy steps"
+msgstr "Activa tu <span class=\"wphcolor\">Webphone</span> en 3 sencillos pasos"
+
+#: admin/views/admin_webphone_dynamics_button_page.php:77
+msgid "1. Register in <span class=\"wphcolor\">Webphone</span>"
+msgstr "1. Regístrate en <span class=\"wphcolor\">Webphone</span>"
+
+#: admin/views/admin_webphone_dynamics_button_page.php:84
+msgid "You need to be registered for Webphone to be used. Please, visit <a target=\"_blank\" href=\"https://dashboard.webphone.net/create-account/\"><span class=\"wphnormalcolor\">dashboard.webphone.net/create-account</span></a> and sign up."
+msgstr "Necesitas estar registrado desde Webphone para poder usarlo. Por favor, visit <a target=\"_blank\" href=\"https://dashboard.webphone.net/create-account/\"><span class=\"wphnormalcolor\">dashboard.webphone.net/create-account</span></a> regístrate."
+
+#: admin/views/admin_webphone_dynamics_button_page.php:90
+msgid "2. Get your <span class=\"wphcolor\">Webphone</span> ID"
+msgstr "2. Obtén tu <span class=\"wphcolor\">Webphone</span> ID"
+
+#: admin/views/admin_webphone_dynamics_button_page.php:96
+msgid "After signing up, your access details by emailed to you. Access your account at your WordPress panel (see below) or at <a target=\"_blank\" href=\"https://dashboard.webphone.net/\"><span class=\"wphnormalcolor\">dashboard.webphone.net</span></a> and follow the instructions to set up your button and generate your ID."
+msgstr "Después de registrarte te enviarmeos tus detalles de acceso por email. Accede a tu cuenta de Webphone desde aquí (ver más abajo) o desde <a target=\"_blank\" href=\"https://dashboard.webphone.net/\"><span class=\"wphnormalcolor\">dashboard.webphone.net</span></a> y sigue las instrucciones para configurar tu botón y generar su ID."
+
+#: admin/views/admin_webphone_dynamics_button_page.php:102
+msgid "3. Insert <span class=\"wphcolor\">Webphone</span> in your website"
+msgstr "3. Inserta <span class=\"wphcolor\">Webphone</span> en tu web"
+
+#: admin/views/admin_webphone_dynamics_button_page.php:243
+msgid "Please select the Webphone position in the site"
+msgstr "Por favor selecciona la posición de Webphone en tu web"
+
+#: admin/views/admin_webphone_dynamics_button_page.php:245
+msgid "Enter your Webphone ID"
+msgstr "Introduce tu Webphone ID"
+
+#: admin/views/admin_webphone_dynamics_button_page.php:259
+#: admin/views/admin_webphone_dynamics_button_page.php:260
+msgid "ACTIVE WEBPHONE"
+msgstr "ACTIVAR WEBPHONE"
+
+#: admin/views/admin_webphone_dynamics_button_page.php:265
+#: admin/views/admin_webphone_dynamics_button_page.php:266
+msgid "REFRESH WEBPHONE"
+msgstr "ACTUALIZA WEBPHONE"
+
+#: admin/views/admin_webphone_dynamics_button_page.php:283
+msgid "What is Webphone?"
+msgstr "¿Qué es Webphone?"
+
+#: admin/views/admin_webphone_dynamics_button_page.php:285
+msgid "Webphone is the button to be inserted in your website so that your customers can call you for free. It prevents them to leave the site without contacting and helps you to increase your online sales."
+msgstr "Webphone es el botón que se inserta en tu sitio web para que tus clientes y usuarios puedan llamerte de manera gratuita. Previene que abandonen la web sin contactar contigo y ayuda a aumenter tus ventas."
+
+#: admin/views/admin_webphone_dynamics_button_page.php:292
+msgid "Discover more about Webphone at <a class=\"white\" href=\"https://www.webphone.net/en/\">www.webphone.net"
+msgstr "Descubre más sobre Webphone en <a class=\"white\" href=\"https://www.webphone.net/\">www.webphone.net"
+
+#: admin/views/admin_webphone_dynamics_button_page.php:296
+msgid "Access your account"
+msgstr "Accede a tu cuenta"
+
+#: admin/views/admin_webphone_dynamics_button_page.php:308
+#: admin/views/admin_webphone_dynamics_button_page.php:307
+msgid "Forgot your password?"
+msgstr "¿Olvidaste tu contraseña?"
+
+#: admin/views/admin_webphone_dynamics_button_page.php:300
+msgid "Username"
+msgstr "Usuario"
+
+#: admin/views/admin_webphone_dynamics_button_page.php:303
+msgid "Password"
+msgstr "Contraseña"
